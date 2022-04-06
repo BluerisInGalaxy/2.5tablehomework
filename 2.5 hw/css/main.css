@@ -1,0 +1,74 @@
+.tr__td{
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div__table{
+    border-collapse: collapse;
+}
+
+.container{
+    max-width: 1280px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.checkbox__label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.checkbox{
+    appearance: none;
+}
+
+.checkbox__title{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.checkbox__title:hover{
+    color: red;
+}
+
+.checkbox__arrow-down-img{
+    height: 10px;
+    width: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.checkbox:checked + .checkbox__copyright-part {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.checkbox__title-part{
+    width: 420px;
+}
+
+.checkbox__copyright-part{
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    display: none;
+    position: relative;
+}
